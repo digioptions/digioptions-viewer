@@ -1,0 +1,8 @@
+_*
+*.map
+/node_modules
+/README.html
+/npm-debug.log
+/js/
+/patches/
+/tools/
