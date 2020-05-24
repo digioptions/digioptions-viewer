@@ -1,6 +1,5 @@
-_*
 *.map
-/node_modules
+/node_modules/
 /README.html
 /npm-debug.log
 /js/
