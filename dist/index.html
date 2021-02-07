@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>DigiOptions Viewer</title><link rel="icon" href="data:;base64,iVBORw0KGgo="/><link href="css/bundle.min.css?ver=0.2.5" rel="stylesheet"/><style>
+.digioptions-viewer {
+  position: relative;
+}
+
+.digioptions-viewer > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.digioptions-viewer:hover .digioptions-viewer-overlay {
+  font-size: 20px;
+  height: 58px;
+}
+
+.digioptions-viewer-overlay {
+  height:0;
+  transition: 0.5s;
+  overflow: hidden;
+  background: skyblue;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  line-height: 58px;
+  text-align: center;
+  z-index: 50000;
+}
+</style></head><body>Take a look at this:<div class="digioptions-viewer" style="width:800px;height:377px;margin:auto"><div class="digioptions-viewer-overlay">Start trading now !</div><div class="flexbox-column"><nav class="navbar navbar-center navbar-expand navbar-default"><ul class="navbar-nav mr-auto"><li id="title" style="padding-top:2px"><span style="padding-right:10px"><span style="color:#ffffff"><span style="font-weight:bold;font-size:28px">loading...</span></span></span></li></ul></nav><div class="content flexbox-item-grow"><div class="content-layout-default" id="layout-container-wrapper"><div class="padding scroll-y flexbox-column" style="outline:none"> <div><div class="mainBox"><div class="chartInfoRow" style="margin-left:78px"><div style="width:auto"><span style="vertical-align:middle;line-height:32px"> <span>​</span></span></div></div><div class="chartBoxMain"><div class="chartBox" style="width:100%"> <div class="chartDummy" style="min-height:236px;margin-top:24px;margin-left:48px;margin-bottom:20px"><div style="padding-top:78.66666666666667px" class="font-size-large text-center">loading ...<span class="svg-icon-lg svg-icon-pad-left2x"><svg xmlns="http://www.w3.org/2000/svg" class="spin" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" aria-hidden="true"><circle stroke="#666666" cx="50" cy="50" fill="none" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138"></circle></svg></span></div></div></div></div></div></div></div></div></div></div></div><script>window.digioptions = {"viewer": {"ready": [function(){}]}};</script><script>var args=window.location.hash.replace(/^#?\//,"").split("?")[0].split("/");var viewers = document.getElementsByClassName("digioptions-viewer");for (var i = 0; i < viewers.length; i++) {if(args[0]){viewers.item(i).setAttribute("data-network",args[0]);}if(args[1]){viewers.item(i).setAttribute("data-contractaddr",args[1]);}if(args[2]){viewers.item(i).setAttribute("data-markethash",args[2]);}}</script><script src="js/bundle.min.js?ver=0.2.5"></script>End.</body></html>
